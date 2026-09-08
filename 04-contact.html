@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Menampilkan Gambar</title>
+</head>
+<h1>Contact Me</h1>
+<body>
+        <nav>
+<a href="01-home.html">Home</a> |
+<a href="02-about.html">About</a> |
+<a href="03-project.html">Project</a> |
+<a href="04-contact.html">Contact</a>
+</nav>
+<hr>
+<h2>Informasi Kontak</h2>
+<p>Jika Anda ingin berdiskusi atau bekerja sama, silahkan hubungi saya melalui form berikut.</p>
+<p>Anda juga dapat mengirim email ke <a href="https://mail.google.com/mail/u/0/#inbox"
+              >zahramutia2408@student.upi.edu</a </p> 
+<h2>Form Pesan</h2>
+</head>
+
+    <form>
+
+        <table border="1" cellspacing="0" cellpadding="8">
+
+            <tr>
+                <th colspan="2">Form Data Kontak</th>
+            </tr>
+
+            <tr>
+                <td align="right"><b>Nama Lengkap:</b></td>
+                <td>
+                    <input type="text" name="nama">
+                </td>
+            </tr>
+
+            <tr>
+                <td align="right"><b>Email:</b></td>
+                <td>
+                    <input type="email" name="email">
+                </td>
+            </tr>
+
+            <tr>
+                <td align="right"><b>Nomor Telepon:</b></td>
+                <td>
+                    <input type="tel" name="telepon">
+                </td>
+            </tr>
+
+            <tr>
+                <td align="right"><b>Jenis Kelamin:</b></td>
+                <td>
+                    <input type="radio" name="gender" value="laki-laki">
+                    Laki-laki
+
+                    <input type="radio" name="gender" value="perempuan">
+                    Perempuan
+                </td>
+            </tr>
+
+            <tr>
+                <td align="right"><b>Tanggal Lahir:</b></td>
+                <td>
+                    <input type="date" name="tanggal_lahir">
+                </td>
+            </tr>
+
+            <tr>
+                <td align="right"><b>Topik Pesan:</b></td>
+                <td>
+                    <select name="topik">
+                        <option value="diskusi">Diskusi</option>
+                        <option value="pertanyaan">Pertanyaan</option>
+                        <option value="saran">Saran</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td align="right"><b>Jenis Pesan:</b></td>
+                <td>
+                    <input type="radio" name="jenis_pesan" value="pertanyaan">
+                    Pertanyaan
+
+                    <input type="radio" name="jenis_pesan" value="saran">
+                    Saran
+
+                    <input type="radio" name="jenis_pesan" value="lainnya">
+                    Lainnya
+                </td>
+            </tr>
+
+            <tr>
+                <td align="right" valign="top"><b>Pesan:</b></td>
+                <td>
+                    <textarea name="pesan" rows="5" cols="35"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td align="right"><b>Salinan Pesan:</b></td>
+                <td>
+                    <input type="checkbox" name="salinan">
+                    Kirim salinan pesan ke email saya
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Kirim Pesan">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+    
+    <i>Catatan: karena website ini hanya menggunakan HTML, form belum terhubung ke server/database.</i>
+   <hr />
+  <p>
+      <a
+        href="file:///C:/Users/asust/OneDrive/Documents/praktikul-html/03-tugas/01-home.html"
+        >Kembali ke Home</a
+      >
+    </p>
+    <p>&copy; 2026 Zahra Mutia Rahmah. </p>
+  </body>
+</html>
