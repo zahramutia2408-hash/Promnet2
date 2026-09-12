@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Personal Website — Zahra Mutia Rahmah
 
 ## 📌 Tentang Website
@@ -72,3 +73,6 @@ Personal Website
 ├── Project
 ├── Contact
 └── Experience & Activities
+=======
+
+>>>>>>> d729ad3 (menambahkan deskripsi)
