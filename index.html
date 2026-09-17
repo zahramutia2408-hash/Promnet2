@@ -1,42 +1,114 @@
 <!doctype html>
 <html lang="id">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Menampilkan Gambar</title>
-  </head>
-  <h1>Personal Website</h1>
-  <p>Selamat datang di website pribadi saya.</p>
-  <body>
-    <nav>
-      <a href="inde.html">Home</a> | <a href="about.html">About</a> |
-      <a href="project.html">Project</a> | <a href="contact.html">Contact</a> |
-      <a href="experience&activities.html">Experience & Activities</a>
-    </nav>
-    <hr />
-    <h2>Halo, Saya Zahra Mutia Rahmah!</h2>
-    <img src="assets/foto.jpeg" alt="Foto profil mahasiswa" width="200" />
 
-    <p>
-      Saya adalah mahasiswa yang sedang belajar pengembangan web. Website ini
-      dibuat sebagai latihan menggunakan HTML dasar dan CSS.
-    </p>
-    <p>
-      Di website ini Anda dapat mengenal saya, melihat beberaoa project, serta
-      menguhubungi saya melalui halaman contact.
-    </p>
-    <h3>Yang Sedang Saya Pelajari</h3>
-    <ul>
-      <li>HTML</li>
-      <li>Algoritma Pemrograman</li>
-      <li>Basis Data</li>
-      <li>Git dan Github</li>
-    </ul>
-    <p>
-      Silakan kunjungi halaman
-      <a href="about.html">About</a>
-      untuk mengetahui profil saya lebih lengkap.
-    </p>
-    <hr />
-    <p>&copy; 2026 Zahra Mutia Rahmah.</p>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <h2>Welcome To My Personal Website</h2>
+        </div>
+
+        <div class="link-navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="project.html">Project</a>
+            <a href="contact.html">Contact</a>
+            <a href="experience&activities.html">Experience & Activities</a>
+        </div>
+    </nav>
+
+    <section id="myself">
+
+        <div class="myself-text">
+
+            <h2>
+                Halo, Saya Zahra Mutia Rahmah!
+            </h2>
+
+            <div class="myself-description">
+                <p>
+                    Saya adalah mahasiswa yang sedang belajar pengembangan web.
+                    Website ini dibuat sebagai latihan menggunakan HTML dasar dan CSS.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="myself-image">
+            <img src="assets/foto.jpeg" alt="Foto Profil Zahra Mutia Rahmah">
+        </div>
+
+    </section>
+
+    <section id="information">
+
+    <div class="info-container">
+
+        <!-- Kotak Tentang Website -->
+        <div class="info-box">
+
+            <div class="section-title">
+                <h2>Tentang Website Saya</h2>
+            </div>
+
+            <div class="intro-content">
+                <p>
+                    Di website ini Anda dapat mengenal saya, melihat beberapa
+                    project yang pernah saya kerjakan, serta menghubungi saya
+                    melalui halaman Contact.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- Kotak Yang Sedang Dipelajari -->
+        <div class="info-box">
+
+            <div class="section-title">
+                <h2>Yang Sedang Saya Pelajari</h2>
+            </div>
+
+            <div class="learning-list">
+
+                <ul>
+                    <li>HTML</li>
+                    <li>Algoritma Pemrograman</li>
+                    <li>Basis Data</li>
+                    <li>Git dan GitHub</li>
+                    <li>Rangkaian Logika</li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+    </section>
+
+    <footer>
+
+        <p>
+            &copy; 2026 Zahra Mutia Rahmah.
+        </p>
+
+        <a href="about.html" class="button">
+            Kenali Saya Lebih Lanjut
+        </a>
+
+    </footer>
+
+</body>
+
 </html>
