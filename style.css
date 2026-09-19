@@ -12,6 +12,10 @@ body {
     animation: fadeIn 1s ease-in;
 }
 
+/* =========================================
+   NAVBAR
+   ========================================= */
+
 nav {
     background-color: #561C24;
     display: flex;
@@ -46,6 +50,12 @@ nav {
     color: #561C24;
     transform: translateY(-2px);
 }
+
+/* =========================================
+   HOME PAGE
+   ========================================= */
+
+/* Bagian perkenalan */
 
 #myself {
     display: flex;
@@ -98,6 +108,8 @@ nav {
     color: #561C24;
 }
 
+/* Foto profil */
+
 .myself-image {
     width: 280px;
     height: 280px;
@@ -120,6 +132,8 @@ nav {
     border-radius: 50%;
     display: block;
 }
+
+/* Informasi Home */
 
 #information {
     padding: 60px 8%;
@@ -149,6 +163,8 @@ nav {
     box-shadow: 0 8px 18px rgba(86, 28, 36, 0.25);
 }
 
+/* Judul section */
+
 .section-title {
     text-align: center;
     margin-bottom: 25px;
@@ -166,6 +182,8 @@ nav {
 .intro-content p {
     margin-bottom: 12px;
 }
+
+/* Yang sedang dipelajari */
 
 .learning-list ul {
     display: flex;
@@ -189,20 +207,767 @@ nav {
     transform: translateY(-5px);
 }
 
+
+/* =========================
+   ABOUT PAGE
+   ========================= */
+
+/* Header About */
+#about-header {
+    background-color: #E8D8C4;
+    padding: 55px 8%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.about-title {
+    max-width: 800px;
+    margin: auto;
+}
+
+.about-title .subtitle {
+    color: #6D2932;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.about-title h1 {
+    color: #561C24;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.about-title p:last-child {
+    color: #6D2932;
+    font-size: 16px;
+}
+
+/* Profil Singkat */
+
+#profile {
+    background-color: #C7B7A3;
+    padding: 50px 8%;
+    box-sizing: border-box;
+}
+
+.profile-content {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px 35px;
+    background-color: #E8D8C4;
+    border-left: 7px solid #6D2932;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(86, 28, 36, 0.2);
+    box-sizing: border-box;
+    transition: 0.5s ease;
+}
+
+.profile-content:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(86, 28, 36, 0.25);
+}
+.profile-content p {
+    color: #561C24;
+    margin-bottom: 12px;
+    line-height: 1.7;
+}
+
+.profile-content p:last-child {
+    margin-bottom: 0;
+}
+
+/* Data Diri, Hobi & Pendidikan */
+
+#about-information {
+    background-color: #C7B7A3;
+    padding: 50px 8%;
+    box-sizing: border-box;
+}
+
+.info-card {
+    background-color: #E8D8C4;
+    flex: 1;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(86, 28, 36, 0.2);
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+.info-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(86, 28, 36, 0.3);
+}
+
+.info-card h2 {
+    color: #561C24;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Tabel Data Diri */
+
+.data-card table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #561C24;
+}
+
+.data-card td {
+    padding: 7px;
+    border-bottom: 1px solid #C7B7A3;
+    font-size: 13px;
+}
+
+.data-card td:first-child {
+    font-weight: bold;
+}
+
+
+.info-card ul {
+    padding-left: 25px;
+    color: #561C24;
+}
+
+.info-card li {
+    margin-bottom: 10px;
+}
+
+.info-card li:hover {
+    color: #6D2932;
+}
+
+/* Hobi */
+
+.hobby-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.hobby-item {
+    background-color: #C7B7A3;
+    padding: 12px 15px;
+    width: 100%;
+    min-height: 50px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+.hobby-item p {
+    color: #561C24;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.hobby-item:hover {
+    background-color: #6D2932;
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(86, 28, 36, 0.25);
+}
+
+.hobby-item:hover p {
+    color: #E8D8C4;
+}
+
+/* =========================
+   PROJECT PAGE
+   ========================= */
+/* Bagian utama Project */
+
+#project {
+    background-color: #C7B7A3;
+    padding: 55px 8%;
+}
+
+.project-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.project-header h1 {
+    color: #561C24;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.project-header p {
+    color: #561C24;
+}
+
+
+/* PROJECT CARD */
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.project-card {
+    background-color: #E8D8C4;
+    width: 31%;
+    min-width: 280px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 18px;
+    box-shadow: 0 5px 15px rgba(86, 28, 36, 0.18);
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 10px 20px rgba(86, 28, 36, 0.25);
+}
+
+.project-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.project-card h2 {
+    color: #561C24;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.project-card p {
+    color: #561C24;
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.project-card a {
+    display: inline-block;
+    color: #6D2932;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.project-card a:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================
+   TECHNOLOGY
+   ========================= */
+
+#technology {
+    background-color: #E8D8C4;
+    padding: 55px 8%;
+}
+
+.technology-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.technology-header h2 {
+    color: #561C24;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.technology-header p {
+    color: #561C24;
+}
+
+
+/* KOTAK TEKNOLOGI */
+
+.technology-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 12px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.technology-card {
+    background-color: #C7B7A3;
+    width: 130px;
+    padding: 18px 10px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(86, 28, 36, 0.15);
+    transition: 0.3s;
+    box-sizing: border-box;
+}
+
+.technology-card:hover {
+    background-color: #6D2932;
+    color: #E8D8C4;
+    transform: translateY(-5px);
+}
+
+.technology-card h3 {
+    color: #561C24;
+    margin: 0;
+    font-size: 17px;
+}
+
+.technology-card:hover h3 {
+    color: #E8D8C4;
+}
+
+
+/* =========================
+   RINGKASAN PROJECT
+   ========================= */
+
+#project-summary {
+    background-color: #C7B7A3;
+    padding: 50px 8%;
+}
+
+.summary-header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.summary-header h2 {
+    color: #561C24;
+    font-size: 30px;
+}
+
+.summary-table {
+    max-width: 850px;
+    margin: auto;
+    overflow-x: auto;
+    transition: 0.3s;
+}
+
+.summary-table:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(86, 28, 36, 0.25);
+}
+
+.summary-table table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #E8D8C4;
+    box-shadow: 0 5px 15px rgba(86, 28, 36, 0.15);
+}
+
+.summary-table th,
+.summary-table td {
+    border: 2px solid #050505;
+    padding: 9px 12px;
+    text-align: center;
+}
+
+.summary-table th {
+    background-color: #6D2932;
+    color: #E8D8C4;
+}
+
+.summary-table td {
+    color: #561C24;
+    font-size: 13px;
+}
+
+/* =========================
+   CONTACT PAGE
+   ========================= */
+
+#contact-header {
+    background-color: #E8D8C4;
+    padding: 50px 8%;
+    text-align: center;
+}
+
+.contact-title {
+    max-width: 750px;
+    margin: auto;
+}
+
+.contact-title h1 {
+    color: #561C24;
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+
+.contact-title p {
+    color: #561C24;
+    font-size: 15px;
+}
+
+/* Bagian Contact */
+
+#contact {
+    background-color: #C7B7A3;
+    padding: 55px 8%;
+    box-sizing: border-box;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin: auto;
+}
+
+/* Informasi Kontak */
+
+.contact-info {
+    width: 850px;
+    background-color: #E8D8C4;
+    padding: 30px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 5px 15px rgba(86, 28, 36, 0.18);
+    transition: 0.3s;
+}
+
+/* Form */
+
+.contact-form {
+    width: 550px;
+    background-color: #E8D8C4;
+    padding: 25px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 5px 15px rgba(86, 28, 36, 0.18);
+    transition: 0.3s;
+}
+
+.contact-form h2 {
+    color: #561C24;
+    margin-bottom: 25px;
+}
+
+
+/* FORM GROUP */
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-group label {
+    display: block;
+    color: #561C24;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+
+
+/* INPUT */
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group input[type="date"],
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 11px 13px;
+    border: 1px solid #C7B7A3;
+    border-radius: 8px;
+    background-color: #F4EAE0;
+    color: #561C24;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    outline: none;
+    transition: 0.3s;
+}
+
+
+/* EFEK INPUT */
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: #6D2932;
+    box-shadow: 0 0 0 2px rgba(109, 41, 50, 0.15);
+}
+
+
+/* TEXTAREA */
+
+.form-group textarea {
+    resize: vertical;
+}
+
+
+/* RADIO */
+
+.radio-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.radio-group label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: normal;
+    margin: 0;
+}
+
+
+/* CHECKBOX */
+
+.checkbox-group {
+    margin-bottom: 20px;
+    color: #561C24;
+    font-size: 13px;
+}
+
+.checkbox-group label {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+
+/* BUTTON FORM */
+
+.form-button {
+    display: flex;
+    gap: 10px;
+}
+
+.form-button input {
+    border: none;
+    padding: 11px 22px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-button input[type="submit"] {
+    background-color: #6D2932;
+    color: #E8D8C4;
+}
+
+.form-button input[type="reset"] {
+    background-color: #C7B7A3;
+    color: #561C24;
+}
+
+.form-button input:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(86, 28, 36, 0.2);
+}
+
+/* =========================
+   CONTACT LINKS
+   ========================= */
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.contact-card {
+    flex: 1;
+    background-color: #C7B7A3;
+    padding: 18px 12px;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #561C24;
+    box-shadow: 0 4px 10px rgba(86, 28, 36, 0.15);
+    transition: 0.3s;
+}
+
+.contact-card h3 {
+    margin-bottom: 5px;
+    color: #561C24;
+    font-size: 16px;
+}
+
+.contact-card p {
+    margin: 0;
+    font-size: 13px;
+    color: #561C24;
+}
+
+
+/* EFEK HOVER */
+
+.contact-card:hover {
+    background-color: #6D2932;
+    color: #E8D8C4;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(86, 28, 36, 0.25);
+}
+
+.contact-card:hover h3,
+.contact-card:hover p {
+    color: #E8D8C4;
+}
+
+.contact-info:hover,
+.contact-form:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 20px rgba(86, 28, 36, 0.25);
+}
+
+/* =========================================
+   EXPERIENCE & ACTIVITIES
+   ========================================= */
+
+/* Bagian judul */
+
+.experience-header {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px 25px;
+    text-align: center;
+}
+
+.experience-header h2 {
+    color: #561C24;
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+
+.experience-header p {
+    color: #561C24;
+    font-size: 16px;
+    line-height: 1.7;
+    margin: 0;
+}
+
+/* Container Card */
+
+.experience-container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px 0 50px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+/* Card Experience */
+
+.experience-card {
+    background-color: #E8D8C4;
+    border-radius: 18px;
+    overflow: hidden;
+
+    box-shadow: 0 5px 15px rgba(86, 28, 36, 0.15);
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+
+    animation: experienceFade 0.8s ease;
+}
+
+/* Gambar */
+
+.experience-card img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Isi Card */
+
+.experience-content {
+    padding: 20px;
+}
+
+.experience-content h3 {
+    color: #561C24;
+    font-size: 17px;
+    line-height: 1.4;
+
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.experience-content p {
+    color: #561C24;
+    font-size: 14px;
+    line-height: 1.6;
+
+    margin-bottom: 0;
+}
+
+
+/* Tahun */
+
+.experience-year {
+    font-size: 13px;
+    margin-bottom: 12px;
+}
+
+/* Hover */
+
+.experience-card:hover {
+    transform: translateY(-7px);
+
+    box-shadow:
+        0 12px 25px rgba(86, 28, 36, 0.23);
+}
+
+/* =========================================
+   FOOTER
+   ========================================= */
+
 footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 25px 40px;
     background-color: #561C24;
+    box-sizing: border-box;
 }
-
 
 footer p {
     color: #E8D8C4;
     margin: 0;
 }
 
+footer .button {
+    background-color: #6D2932;
+    color: #E8D8C4;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+footer .button:hover {
+    background-color: #E8D8C4;
+    color: #561C24;
+    transform: translateY(-3px);
+}
+
+/* =========================================
+   BUTTON UMUM
+   ========================================= */
 
 .button {
     display: inline-block;
@@ -221,6 +986,10 @@ footer p {
     transform: translateY(-3px);
     box-shadow: 0 5px 12px rgba(86, 28, 36, 0.3);
 }
+
+/* =========================================
+   ANIMASI GLOBAL
+   ========================================= */
 
 @keyframes fadeIn {
 

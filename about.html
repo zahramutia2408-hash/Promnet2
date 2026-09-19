@@ -1,82 +1,153 @@
 <!doctype html>
 <html lang="id">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Menampilkan Gambar</title>
-  </head>
-  <h1>About Me</h1>
-  <body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
     <nav>
-      <a href="index.html">Home</a> | <a href="about.html">About</a> |
-      <a href="project.html">Project</a> | <a href="contact.html">Contact</a> |
-      <a href="experience&activities.html">Experience & Activities</a>
+        <div class="logo">
+            <h2>Welcome To My Personal Website</h2>
+        </div>
+
+        <div class="link-navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="project.html">Project</a>
+            <a href="contact.html">Contact</a>
+            <a href="experience&activities.html">Experience & Activities</a>
+        </div>
     </nav>
-    <hr />
 
-    <h2>Profil Singkat</h2>
-    <p>
-      Nama saya <strong>Zahra Mutia Rahmah.</strong> Saya adalah mahasiswa
-      Program Studi Pendidikan Sistem dan Teknologi Informasi yang memiliki
-      ketertarikan pada bidang web development dan teknologi informatika.
-    </p>
-    <p>
-      Saya mulai belajar membuat website dari HTML dasar. Target saya adalah
-      dapat membuat website yang bermanfaat dan mudah digunakan.
-    </p>
-    <h3>Data Diri</h3>
-    <table border="1" cellpadding="8">
-      <thead>
-        <tr>
-          <th>Data</th>
-          <th>Keterangan</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Nama</td>
-          <td>Zahra Mutia Rahmah</td>
-        </tr>
+    <section id="about-header">
 
-        <tr>
-          <td>NIM</td>
-          <td>2500682</td>
-        </tr>
-        <td>Program Studi</td>
-        <td>Pendidikan Sistem dan Teknologi Informasi</td>
-        <tr>
-          <td>Semester</td>
-          <td>3</td>
-        </tr>
-        <tr>
-          <td>Email</td>
-          <td>
-            <a href="https://mail.google.com/mail/u/0/#inbox"
-              >zahramutia2408@student.upi.edu</a
-            >
-          </td>
-        </tr>
-      </tbody>
-    </table>
+        <div class="about-title">
+            <p class="subtitle">GET TO KNOW ME</p>
 
-    <h3>Hobi</h3>
-    <ol>
-      <li>Mendengarkan musik</li>
-      <li>Menonton Film</li>
-      <li>Memasak</li>
-      <li>Bermain Game</li>
-    </ol>
+            <h1>About Me</h1>
 
-    <h3>Riwayat Pendidikan</h3>
-    <ul>
-      <li>SDIT Al-Munir - 2012</li>
-      <li>SMPN 8 Tambun Selatan - 2019</li>
-      <li>SMKN 1 Cikarang Barat - 2022</li>
-      <li>Universitas Pendidikan Indonesia - Sekarang</li>
-    </ul>
-    <hr />
-    <p>
-      <a href="index.html">Kembali ke Home</a>
-    </p>
-    <p>&copy; 2026 Zahra Mutia Rahmah.</p>
-  </body>
+            <p>
+                Mengenal lebih dekat tentang profil, pendidikan, 
+                dan hal-hal yang saya sukai.
+            </p>
+        </div>
+
+    </section>
+
+    <section id="profile">
+
+        <div class="section-title">
+            <h2>Profil Singkat</h2>
+        </div>
+
+        <div class="profile-content">
+
+            <p>
+                Nama saya <strong>Zahra Mutia Rahmah.</strong> Saya adalah mahasiswa
+                Program Studi Pendidikan Sistem dan Teknologi Informasi yang memiliki
+                ketertarikan pada bidang web development dan teknologi informatika.
+            </p>
+
+            <p>
+                Saya mulai belajar membuat website dari HTML dasar. Target saya adalah
+                dapat membuat website yang bermanfaat dan mudah digunakan.
+            </p>
+
+        </div>
+
+    </section>
+
+  <section id="about-information">
+
+    <div class="info-container">
+
+        <div class="info-card data-card">
+            <h2>Data Diri</h2>
+
+            <table cellpadding="8">
+                <tr>
+                    <td>Nama</td>
+                    <td>Zahra Mutia Rahmah</td>
+                </tr>
+
+                <tr>
+                    <td>NIM</td>
+                    <td>2500682</td>
+                </tr>
+
+                <tr>
+                    <td>Prodi</td>
+                    <td>PSTI</td>
+                </tr>
+
+                <tr>
+                    <td>Semester</td>
+                    <td>3</td>
+                </tr>
+
+                <tr>
+                    <td>Email</td>
+                    <td>zahramutia2408@student.upi.edu</td>
+                </tr>
+            </table>
+        </div>
+
+     <div class="info-card hobby-card">
+    <h2>Hobi</h2>
+
+    <div class="hobby-list">
+        <div class="hobby-item">
+            <p>Mendengarkan Musik</p>
+        </div>
+
+        <div class="hobby-item">
+            <p>Menonton Film</p>
+        </div>
+
+        <div class="hobby-item">
+            <p>Membaca Buku</p>
+        </div>
+
+        <div class="hobby-item">
+            <p>Bermain Game</p>
+        </div>
+    </div>
+</div>
+
+
+        <div class="info-card">
+            <h2>Riwayat Pendidikan</h2>
+
+            <ul>
+                <li>SDIT Al-Munir - 2012</li>
+                <li>SMPN 8 Tambun Selatan - 2019</li>
+                <li>SMKN 1 Cikarang Barat - 2022</li>
+                <li>Universitas Pendidikan Indonesia - Sekarang</li>
+            </ul>
+        </div>
+
+    </div>
+
+</section>
+
+
+    <footer>
+
+        <p>
+            &copy; 2026 Zahra Mutia Rahmah.
+        </p>
+
+        <a href="index.html" class="button">
+            Kembali ke Home
+        </a>
+
+    </footer>
+
+</body>
+
 </html>

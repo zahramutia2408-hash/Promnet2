@@ -1,167 +1,264 @@
 <!doctype html>
 <html lang="id">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Menampilkan Gambar</title>
-  </head>
-  <h1>My Projects</h1>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
     <nav>
-      <a href="index.html">Home</a> | <a href="about.html">About</a> |
-      <a href="project.html">Project</a> |
-      <a href="contact.html">Contact</a> |
-      <a href="experience&activities.html">Experience & Activities</a>
+        <div class="logo">
+            <h2>Welcome To My Personal Website</h2>
+        </div>
+
+        <div class="link-navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="project.html">Project</a>
+            <a href="contact.html">Contact</a>
+            <a href="experience&activities.html">Experience & Activities</a>
+        </div>
     </nav>
-    <hr />
-    <h2>Daftar Project</h2>
-    <p>
-      Berikut adalah beberapa project sederhana yang pernah atau sedang saya
-      kerjakan.
-    </p>
-    <h3>
-      Project 1: Prototipe "Miniatur Taman dengan Sistem Lampu Otomatis Berbasis
-      LDR"
-    </h3>
-    <img src="assets/prototipe.jpeg" alt="Foto profil mahasiswa" width="200" />
-    <p>
-      Prototipe miniatur taman yang dilengkapi sistem lampu otomatis menggunakan
-      sensor LDR untuk mendeteksi intensitas cahaya dan mengatur lampu secara
-      otomatis.
-    </p>
-    <p>
-      Repository:
-      <a href="https://youtu.be/ypYVczt8i_I?si=bfINQC2QmGAjILF1"
-        >Lihat di YouTube</a
-      >
-    </p>
 
-    <h3>Project 2: Showcase Pendidikan Pancasila</h3>
-    <img src="assets/showcase.jpeg" alt="Foto profil mahasiswa" width="200" />
-    <p>
-      Showcase yang menyajikan pemahaman dan penerapan nilai-nilai Pancasila
-      melalui konten edukatif dan kreatif yang dekat dengan kehidupan
-      sehari-hari.
-    </p>
-    <h3>Project 3: Buku "Pendidikan dan Teknologi"</h3>
-    <img src="assets/buku.jpeg" alt="Foto profil mahasiswa" width="200" />
-    <p>
-      Buku yang membahas hubungan antara pendidikan dan perkembangan teknologi
-      serta pemanfaatannya untuk mendukung proses pembelajaran di era digital.
-    </p>
-    <p>
-      Repository:
-      <a href="https://share.google/j2NNWNPDsgIvWYCzn">Lihat di Gramedia</a>
-    </p>
+    <section id="project">
 
-    <h3>Project 4: Game "Kreswara Studio"</h3>
-    <img src="assets/game.jpeg" alt="Foto profil mahasiswa" width="200" />
-    <p>
-      Proyek pengembangan game yang menggabungkan kreativitas, teknologi, dan
-      unsur interaktif untuk menghasilkan pengalaman bermain yang menarik dan
-      edukatif.
-    </p>
-    <p>
-      Repository:
-      <a
-        href="https://drive.google.com/drive/folders/1HuHHis2mV_zRprQ1YF_F0_HT_79gNASW"
-        >Lihat di Google Drive</a
-      >
-    </p>
+        <div class="project-header">
+            <h1>My Projects</h1>
+            <p>
+                Berikut adalah beberapa project sederhana yang pernah atau
+                sedang saya kerjakan.
+            </p>
+        </div>
 
-    <h3>Project 5: UI/UX "Zamzam Hidden Spot"</h3>
-    <img src="assets/zamzam.jpeg" alt="Foto profil mahasiswa" width="200" />
-    <p>
-      Project yang dirancang untuk membantu pengguna menemukan dan mengenal
-      berbagai destinasi atau tempat menarik yang belum banyak diketahui.
-    </p>
-    <p>
-      Repository:
-      <a
-        href="https://www.instagram.com/reel/DWUD0rtExOj/?igsi=d2RscGtwcWxjcGRo"
-        >Lihat di Instagram</a
-      >
-    </p>
 
-    <h3>Project 6: Alat Sederhana "Early Warning System pada Tanah Longsor"</h3>
-    <img src="assets/ews.jpeg" alt="Foto profil mahasiswa" width="200" />
-    <p>
-      Alat sederhana yang dirancang sebagai sistem peringatan dini untuk
-      mendeteksi potensi pergerakan tanah dan memberikan peringatan guna
-      meningkatkan kesiapsiagaan terhadap bencana longsor.
-    </p>
+        <div class="project-container">
 
-    <h3>Teknologi Yang Digunakan</h3>
-    <ul>
-      <li>Figma</li>
-      <li>Python</li>
-      <li>Canva</li>
-      <li>Word</li>
-      <li>Sensor</li>
-      <li>Arduino</li>
-      <li>Renpy</li>
-    </ul>
-    <h2>Ringkasan Project</h2>
-    <table border="1" cellpadding="8">
-      <tr>
-        <th colspan="4">Ringkasan Portofolio Project</th>
-      </tr>
+            <div class="project-card">
+                <h2>Miniatur Taman dengan Sistem Lampu Otomatis Berbasis LDR</h2>
+                <img src="assets/prototipe.jpeg"
+                     alt="Miniatur Taman dengan Sistem Lampu Otomatis">
 
-      <tr>
-        <th rowspan="2">No.</th>
-        <th rowspan="2">Nama Project</th>
-        <th colspan="2">Detail Project</th>
-      </tr>
+                <p>
+                    Prototipe miniatur taman yang dilengkapi sistem lampu
+                    otomatis menggunakan sensor LDR untuk mendeteksi
+                    intensitas cahaya dan mengatur lampu secara otomatis.
+                </p>
 
-      <tr>
-        <th>Tools</th>
-        <th>Status</th>
-      </tr>
+                <a href="https://youtu.be/ypYVczt8i_I?si=bfINQC2QmGAjILF1"
+                   target="_blank">
+                    Lihat di YouTube
+                </a>
+            </div>
 
-      <tr>
-        <td>1</td>
-        <td>Miniatur Taman dengan Sistem Lampu Otomatis Berbasis LDR</td>
-        <td>Arduino</td>
-        <td rowspan="3">Selesai</td>
-      </tr>
 
-      <tr>
-        <td>2</td>
-        <td>Showcase Pendidikan Pancasila</td>
-        <td>Canva</td>
-      </tr>
+            <div class="project-card">
+                
+               <h2>Showcase Pendidikan Pancasila</h2>
+                <img src="assets/showcase.jpeg"
+                     alt="Showcase Pendidikan Pancasila">
 
-      <tr>
-        <td>3</td>
-        <td>Buku Pendidikan dan Teknologi</td>
-        <td>Canva & Word</td>
-      </tr>
+                <p>
+                    Showcase yang menyajikan pemahaman dan penerapan
+                    nilai-nilai Pancasila melalui konten edukatif dan
+                    kreatif yang dekat dengan kehidupan sehari-hari.
+                </p>
+            </div>
 
-      <tr>
-        <td>4</td>
-        <td>Game Kreswara Studio</td>
-        <td>Renpy</td>
-        <td>Dalam Pengembangan</td>
-      </tr>
 
-      <tr>
-        <td>5</td>
-        <td>UI/UX Zamzam Hidden Spot</td>
-        <td>Figma</td>
-        <td>Dalam Pengembangan</td>
-      </tr>
+            <div class="project-card">
+                <h2>Buku "Pendidikan dan Teknologi"</h2>
+                <img src="assets/buku.jpeg"
+                     alt="Buku Pendidikan dan Teknologi">
 
-      <tr>
-        <td>6</td>
-        <td>Alat Sederhana Early Warning System pada Tanah Longsor</td>
-        <td>Sensor</td>
-        <td>Dalam Pengembangan</td>
-      </tr>
-    </table>
-    <hr />
-    <p>
-      <a href="contact.html">Tertarik berdiskusi? Hubungi saya</a>
-    </p>
+                <p>
+                    Buku yang membahas hubungan antara pendidikan dan
+                    perkembangan teknologi serta pemanfaatannya untuk
+                    mendukung proses pembelajaran di era digital.
+                </p>
 
-    <p>&copy; 2026 Zahra Mutia Rahmah.</p>
-  </body>
+                <a href="https://share.google/j2NNWNPDsgIvWYCzn"
+                   target="_blank">
+                    Lihat di Gramedia
+                </a>
+            </div>
+
+
+            <div class="project-card">
+                <h2>Game "Kreswara Studio"</h2>
+                <img src="assets/game.jpeg"
+                     alt="Game Kreswara Studio">
+
+                <p>
+                    Proyek pengembangan game yang menggabungkan kreativitas,
+                    teknologi, dan unsur interaktif untuk menghasilkan
+                    pengalaman bermain yang menarik dan edukatif.
+                </p>
+
+                <a href="https://drive.google.com/drive/folders/1HuHHis2mV_zRprQ1YF_F0_HT_79gNASW"
+                   target="_blank">
+                    Lihat di Google Drive
+                </a>
+            </div>
+
+
+            <div class="project-card">
+                <h2>UI/UX "Zamzam Hidden Spot"</h2>
+                <img src="assets/zamzam.jpeg"
+                     alt="UI UX Zamzam Hidden Spot">
+
+                <p>
+                    Project yang dirancang untuk membantu pengguna menemukan
+                    dan mengenal berbagai destinasi atau tempat menarik yang
+                    belum banyak diketahui.
+                </p>
+
+                <a href="https://www.instagram.com/reel/DWUD0rtExOj/?igsi=d2RscGtwcWxjcGRo"
+                   target="_blank">
+                    Lihat di Instagram
+                </a>
+            </div>
+
+
+            <div class="project-card">
+              <h2>Early Warning System pada Tanah Longsor</h2>
+                <img src="assets/ews.jpeg"
+                     alt="Early Warning System Tanah Longsor">
+
+
+                <p>
+                    Alat sederhana yang dirancang sebagai sistem peringatan
+                    dini untuk mendeteksi potensi pergerakan tanah dan
+                    memberikan peringatan guna meningkatkan kesiapsiagaan
+                    terhadap bencana longsor.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="technology">
+
+        <div class="technology-header">
+            <h2>Teknologi yang Digunakan</h2>
+            <p>
+                Beberapa tools dan teknologi yang digunakan dalam berbagai
+                project yang saya kerjakan.
+            </p>
+        </div>
+
+        <div class="technology-container">
+
+            <div class="technology-card">
+                <h3>Figma</h3>
+            </div>
+
+            <div class="technology-card">
+                <h3>Python</h3>
+            </div>
+
+            <div class="technology-card">
+                <h3>Canva</h3>
+            </div>
+
+            <div class="technology-card">
+                <h3>Word</h3>
+            </div>
+
+            <div class="technology-card">
+                <h3>Sensor</h3>
+            </div>
+
+            <div class="technology-card">
+                <h3>Arduino</h3>
+            </div>
+
+            <div class="technology-card">
+                <h3>Ren'Py</h3>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="project-summary">
+
+        <div class="summary-header">
+            <h2>Ringkasan Project</h2>
+        </div>
+
+        <div class="summary-table">
+            <table>
+                <tr>
+                    <th colspan="4">Ringkasan Portofolio Project</th>
+                </tr>
+
+                <tr>
+                    <th rowspan="2">No.</th>
+                    <th rowspan="2">Nama Project</th>
+                    <th colspan="2">Detail Project</th>
+                </tr>
+
+                <tr>
+                    <th>Tools</th>
+                    <th>Status</th>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>Miniatur Taman dengan Sistem Lampu Otomatis Berbasis LDR</td>
+                    <td>Arduino</td>
+                    <td>Selesai</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Showcase Pendidikan Pancasila</td>
+                    <td>Canva</td>
+                    <td>Selesai</td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Buku Pendidikan dan Teknologi</td>
+                    <td>Canva & Word</td>
+                    <td>Selesai</td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td>Game Kreswara Studio</td>
+                    <td>Ren'Py</td>
+                    <td>Dalam Pengembangan</td>
+                </tr>
+
+                <tr>
+                    <td>5</td>
+                    <td>UI/UX Zamzam Hidden Spot</td>
+                    <td>Figma</td>
+                    <td>Dalam Pengembangan</td>
+                </tr>
+
+                <tr>
+                    <td>6</td>
+                    <td>Early Warning System pada Tanah Longsor</td>
+                    <td>Sensor</td>
+                    <td>Dalam Pengembangan</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Zahra Mutia Rahmah.</p>
+
+        <a href="contact.html" class="button">
+            Tertarik Berdiskusi? Hubungi Saya
+        </a>
+    </footer>
+
+</body>
 </html>
